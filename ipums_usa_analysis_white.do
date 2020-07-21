@@ -260,19 +260,6 @@ gen mean_child_pct_educ  = mean_child_pct_h if mean_child_pct_h != .
 replace mean_child_pct_educ = mean_child_ed_h if mean_child_ed_h != .
 
 
-//twoway (connected mean_child_p_ed_w cohort if pct == 1 ) /// 
-//		(connected mean_child_p_ed_w cohort if pct == 2 ) ///
-//		(connected mean_child_p_ed_w cohort if pct == 3 ) ///
-//		(connected mean_child_p_ed_w cohort if ed_group_w == 1 ) /// 
-//		(connected mean_child_p_ed_w cohort if ed_group_w == 2 ) ///
-//		(connected mean_child_p_ed_w cohort if ed_group_w == 3 ) ///
-//		(connected mean_child_p_ed_w cohort if ed_group_w == 4 ), ///
-//		legend(label(1 "Bottom tertile") label(2 "Middle tertile") ///
-//		label(3 "Upper tertile") label(4 "HS dopout") ///
-//		label(5 "HS") label(6 "Some College") ///
-//		label(7 "College graduate") ///
-//		order(1 2 3 4 5 6 7) rows(2) col(3) size(small) symxsize(6)) ///
-//		ytitle("Avge. Number of children") xtitle("Cohort") subtitle(Fertility rates, Income and Education Groups (Wife),nobox) 
 
 
 * HS graduated 
