@@ -304,3 +304,6 @@ replace mean_child_pct_educ = mean_child_ed_h if mean_child_ed_h != .
 				
 			}
 save "G:\My Drive\MQE_LMU\SS_2020\Thesis\Fert_Educ\A_Microdata\ipums_usa_1840_2018_graphs.dta", replace 
+
+
+I modified this file. 
